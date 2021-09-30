@@ -9,6 +9,8 @@
 	width: 100%;
 	margin: 0 auto;
 	background-color: #0A22F4;
+	justify-content: space-around;
+	align-content: center;
 }
 .navlogo {
 	display: flex;
@@ -19,14 +21,15 @@
 .skylogo {
 	width: 97px;
 	height: 55px;
-	align-content: center;
+	/*align-content: center;*/
 	display: flex;
 }
-/*.navdiv {
+.navdiv {
 	display: flex;
-	align-items: center;
+	/*align-items: center;*/
 	justify-content: space-between;
-}*/
+	justify-content: space-around;
+}
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -39,21 +42,23 @@
 	display: flex;
 }
 .navbar-li {
-	font-family: 'Regular';
 	font-size: 16px;
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
+	margin: 0 45px 0 0;
 }
 .colorf {
 	text-decoration: none;
 	color: #FFFFFF;
+	font-family: 'Regular';
 }
 .colorb {
 	text-decoration: none;
+	font-family: 'Bold';
 	color: #171717;
 	background-color: #FFFFFF;
-	padding:18px 43px 18px 36px ;
+	border-radius:18px 43px 18px 36px ;
 }
 .rectangle {
 	display: flex;
